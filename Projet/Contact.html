@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Game Art Club</title>
+        <link rel="stylesheet" href="Contact.css">
+        <script src="Contact.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        
+        <div id="navbar">
+            <ul>
+                <li> <a class="link" href="Projet final.html"> Home  </a> </li>
+                <li> <a class="link" href="About us.html"> About us</a> </li>
+                <li><div class="dropdown">
+                <button class="dropbtn"> Sports 
+                    <i class="fa fa-caret-down"></i>
+                  </button> 
+                  <div class="dropdown-content">
+                    <a href="Football.html"> Football </a>
+                    <a href="Basketball.html"> Basketball </a>
+                    <a href="Tennis.html"> Tennis </a>
+                  </div>
+                </div>
+                </li>
+                <li> <a class="link" href=""> Contact </a> </li>
+            </ul>
+        </div> 
+
+        <section>
+            <h1> Contact Information</h1>
+            <label> Mail :</label> <br> <br>
+            <p> GameArt@gmail.com</p> <br>
+            <label> Phone number :</label>  <br> <br>
+            <p> +212 674930021</p> 
+        </section>
+
+        <div id="Contacter">
+        <h1> How can we help you ?</h1>
+        
+        <center>
+        <form name="contact_form">
+      
+            <input type="text" name="name" placeholder="Name" class="case"> <br>
+            <p style="color: red;" id="nom"> *This field is required</p> <br> 
+
+      
+            <input type="text" name="number" placeholder="Phone number"  class="case"> <br>
+            <p style="color: red;" id="num"> *This field is required</p> <br> 
+
+          
+            <input type="email" name="email" placeholder="Email" class="case"> <br>
+            <p style="color: red;" id="mail"> *This field is required</p> <br>
+
+            <textarea placeholder="Type your message here..." cols="60" rows="12" name="message"></textarea> <br>
+            <p style="color: red;" id="msg"> *This field is required</p> <br>
+           
+        </form>
+        <button onclick="validForm()"> Submit </button> 
+    </center>
+</div>
+ 
+        

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+a {
+    padding: 20px;  
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li, a {
+    display: inline-block;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around; 
+    position: sticky;
+}
+
+body, html {
+    height: 100%;
+}
+#Arriere_plan {
+    display: flex;
+    justify-content: center;
+    background-image: url(markus-spiske-J_tbkGWxCH0-unsplash.jpg);
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Arriere_plan h1 {
+    font-family: Bellota text;
+    align-self: center;
+    font-size: 80px;
+    
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+  background-color: #f9f9f9;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }  
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropbtn {
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link:hover {
+    color: #ee6730;
+}
+
+.dropbtn:hover {
+    color: #ee6730;
+}
+
+#foot_heading {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#foot_heading h3 {
+    font-size: 25px;
+}
+
+#foot_heading img {
+    width: 70%;
+    align-self: center;
+}
+
+#info {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    color: grey;
+}
+
+#info ul {
+    padding-left: 20px;
+}
+
+#info li {
+    margin-bottom: 10px;
+}
+
+#Coach {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Coach h3 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Coach img {
+    width: 250px;
+}
+
+#Duncan_Foster img {
+    height: 344px;
+}
